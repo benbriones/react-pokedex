@@ -2,18 +2,21 @@
   display: inline-block;
   background-color: grey;
   border-radius: 5%;
-  width: 100px;
+  width: 150px;
+  height: 180px;
   text-align: center;
+  margin: 15px;
+  box-sizing: content-box;
 }
 
 .Pokecard-name {
   color: blue;
-  padding: 0;
+  padding: 10px;
   margin: 0;
 }
 
 .Pokecard-type, .Pokecard-exp {
-  font-size: 10px;
+  font-size: 12px;
   margin: 0
 }
 

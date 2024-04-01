@@ -1,7 +1,13 @@
+/** Info about a pokemon */
 import "./Pokecard.css"
 
 const POKE_API_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon";
 
+/**
+ * Component for one pokecard
+ * Parents: App > Pokedex
+ * Children: None
+ */
 function Pokecard({id, name, type, base_experience}) {
     return (
         <div className="Pokecard">

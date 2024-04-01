@@ -2,7 +2,13 @@
 
 import Pokedex from "./Pokedex";
 import pokeData from "./pokemon";
+import "./App.css"
 
+
+/**
+ * Main component for Pokedex
+ * Children: Pokedex
+ */
 
 function App() {
     return (

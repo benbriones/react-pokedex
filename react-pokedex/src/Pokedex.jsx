@@ -2,6 +2,15 @@ import pokeData from "./pokemon";
 import Pokecard from "./Pokecard";
 import "./Pokedex.css";
 
+
+/**
+ *
+ * Pokedex display area
+ * Parent: App
+ * Children: Pokecard
+ *
+ */
+
 function Pokedex({ pokemon = pokeData }) {
 
     return (
