@@ -1,20 +1,20 @@
 /** Main component for Pokedex */
 
-import Pokedex from "./Pokedex";
+import Pokegame from "./Pokegame";
 import pokeData from "./pokemon";
 import "./App.css"
 
 
 /**
  * Main component for Pokedex
- * Children: Pokedex
+ * Children: Pokegame
  */
 
 function App() {
     return (
         <div className="App">
-            <h1>Pokedex</h1>
-            <Pokedex />
+            <h1>Pokegame</h1>
+            <Pokegame />
         </div>
     );
 }
